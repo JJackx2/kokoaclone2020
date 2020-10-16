@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  width: 1100px;
+  background-color: darkgray;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+
+body > div {
+  border: 3px solid white;
+  width: 170px;
+  height: 350px;
+}
+div > div {
+  background-color: white;
+  height: 60px;
+  top: 20px;
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 45px;
+}
+div:nth-child(2) {
+  background-color: tomato;
+  position: absolute;
+  left: 350px;
+  top: 100px;
+}
+div:nth-child(3) {
+  background-color: teal;
+  position: absolute;
+  left: 570px;
+  top: 100px;
+}
+div:nth-child(4) {
+  background-color: burlywood;
+  position: absolute;
+  left: 350px;
+  top: 500px;
+}
+div:nth-child(5) {
+  background-color: thistle;
+  position: absolute;
+  left: 570px;
+  top: 500px;
+}
